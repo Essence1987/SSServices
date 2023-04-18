@@ -1,4 +1,4 @@
-/* Unviersal Modification for the entire webpage */
+/* Universal Modification for the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +8,17 @@
 /* Webpage Background Color */
 body {
     background-color: #d9dcd6;
+}
+
+/* Pages Paragraph Elements Specifications */
+p {
+    font-size: 16px;
+}
+
+/* Site hyper link specificaion. */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* Navigation Bar. */
@@ -41,19 +52,8 @@ h1 {
     list-style-type: none;
 }
 
-/* Site hyper link specificaion. */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Pages Paragraph Elements Specifications */
-p {
-    font-size: 16px;
-}
-
-/* Web Page Content */
-.hero {
+/* Image which appears between the Nav bar and the content of the page. */
+.background {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -61,6 +61,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Web Page Content */
 
 .float-left {
     float: left;
@@ -78,7 +80,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,33 +89,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+.optimization img {
     max-height: 200px;
 }
 
@@ -124,7 +100,7 @@ h2 {
 
 /* Aside bar */
 
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -135,17 +111,7 @@ h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -155,19 +121,7 @@ h3 {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
